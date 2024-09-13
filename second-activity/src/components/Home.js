@@ -9,7 +9,9 @@ function Home() {
       </div>
 
       <div className="img">
-        <img src={CAVERN} alt="cavernClub"></img>
+        <a href="https://www.cavernclub.com/" target="_blank" rel="noreferrer">
+          <img src={CAVERN} alt="cavernClub"></img>
+        </a>
       </div>
     </>
   );

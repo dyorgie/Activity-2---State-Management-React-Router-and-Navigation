@@ -4,6 +4,11 @@
   margin-top: 50px;
 }
 
-.img {
-  background-image: url("../pictures/images.jpg");
+img {
+  border-radius: 20px;
+  width: 700px;
+}
+
+img:hover {
+  transform: scale(1.1);
 }
