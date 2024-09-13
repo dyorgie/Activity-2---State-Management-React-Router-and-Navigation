@@ -1,4 +1,9 @@
-h1 {
-  font-size: larger;
-  font-family: "Protest Guerilla", sans-serif;
+.welcome {
+  font-size: 100px;
+  font-family: "Protest Guerrilla", sans-serif;
+  margin-top: 50px;
+}
+
+.img {
+  background-image: url("../pictures/images.jpg");
 }
