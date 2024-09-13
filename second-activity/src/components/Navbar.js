@@ -3,18 +3,16 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div>
-      <nav className="navbar">
-        <Link className="siteTitle" to="/">
-          Counter Club
-        </Link>
-        <ul>
-          <CustomLink to="/About">About</CustomLink>
-          <CustomLink to="/Counter">Counter</CustomLink>
-          <CustomLink to="/Contact">Contact</CustomLink>
-        </ul>
-      </nav>
-    </div>
+    <nav className="navbar">
+      <Link className="siteTitle" to="/">
+        Cavern Club
+      </Link>
+      <ul>
+        <CustomLink to="/About">About</CustomLink>
+        <CustomLink to="/Counter">Counter</CustomLink>
+        <CustomLink to="/Contact">Contact</CustomLink>
+      </ul>
+    </nav>
   );
 }
 
