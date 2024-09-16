@@ -1,0 +1,9 @@
+.error {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.error p {
+  color: white;
+}

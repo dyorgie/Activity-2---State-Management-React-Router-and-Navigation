@@ -8,7 +8,7 @@ function Home() {
         <h1 className="welcome">Welcome to the Cavern Club!</h1>
       </div>
 
-      <div className="image">
+      <div className="img">
         <a href="https://www.cavernclub.com/" target="_blank" rel="noreferrer">
           <img src={CAVERN} alt="cavernClub"></img>
         </a>
