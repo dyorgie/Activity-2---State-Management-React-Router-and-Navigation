@@ -2,3 +2,14 @@ h1 {
   font-family: "Protest Guerrilla", sans-serif;
   font-size: 60px;
 }
+
+.firstParagraph {
+  background-color: #3f784c;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 50px;
+}
+
+.firstParagraph p {
+  color: white;
+}
